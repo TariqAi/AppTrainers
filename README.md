@@ -17,4 +17,7 @@ param_grid = {'C': [0.1, 1, 10, 100, 1000],
 
 
 
-https://forms.gle/Mx7Vt64zApwFmKm97
+# https://forms.gle/Mx7Vt64zApwFmKm97
+
+
+# Resume : https://novoresume.com/?noRedirect=true
