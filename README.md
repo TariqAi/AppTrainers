@@ -3,3 +3,4 @@
 
 Add the files here...
 
+Set-ExecutionPolicy RemoteSigned
