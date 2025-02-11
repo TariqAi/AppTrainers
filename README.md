@@ -21,3 +21,6 @@ param_grid = {'C': [0.1, 1, 10, 100, 1000],
 
 
 # Resume : https://novoresume.com/?noRedirect=true
+
+
+# Form to upload your CV: https://forms.gle/h4mKpnjGmaHptnoKA
