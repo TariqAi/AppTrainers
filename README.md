@@ -4,3 +4,11 @@
 Add the files here...
 
 Set-ExecutionPolicy RemoteSigned
+
+
+
+param_grid = {'C': [0.1, 1, 10, 100, 1000],
+              'gamma': [1, 0.1, 0.01, 0.001, 0.0001],
+                'kernel': ['rbf', 'poly', 'sigmoid'],
+                'degree': [2, 3, 4, 5]
+                }
