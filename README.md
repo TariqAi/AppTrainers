@@ -12,3 +12,9 @@ param_grid = {'C': [0.1, 1, 10, 100, 1000],
                 'kernel': ['rbf', 'poly', 'sigmoid'],
                 'degree': [2, 3, 4, 5]
                 }
+
+
+
+
+
+https://forms.gle/Mx7Vt64zApwFmKm97
