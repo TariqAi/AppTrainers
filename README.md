@@ -21,3 +21,9 @@ Add the files here...
 ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
 
 # 18-02-2025
+
+requirements.txt
+
+pip install -r requirements.txt
+
+pip freeze > requirements.txt
