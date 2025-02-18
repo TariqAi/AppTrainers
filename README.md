@@ -27,3 +27,8 @@ requirements.txt
 pip install -r requirements.txt
 
 pip freeze > requirements.txt
+
+## To push our project
+git remote add origin https://github.com/TariqAi/diabetes_prediction.git
+git branch -M main
+git push -u origin main
