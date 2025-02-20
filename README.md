@@ -32,3 +32,8 @@ pip freeze > requirements.txt
 # git remote add origin https://github.com/user/repo_name.git
 # git branch -M main
 # git push -u origin main
+
+
+# 20-02-2025
+
+## https://www.kaggle.com/code/tanmay111999/clustering-pca-k-means-dbscan-hierarchical/notebook
