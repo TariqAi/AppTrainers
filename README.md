@@ -38,4 +38,8 @@ pip freeze > requirements.txt
 
 ## https://www.kaggle.com/code/tanmay111999/clustering-pca-k-means-dbscan-hierarchical/notebook
 
+# 15-03-2025
+
+## Descibtion: https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis
+
 
