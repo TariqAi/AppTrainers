@@ -38,6 +38,4 @@ pip freeze > requirements.txt
 
 ## https://www.kaggle.com/code/tanmay111999/clustering-pca-k-means-dbscan-hierarchical/notebook
 
-# 11-03-2025
 
-## https://www.kaggle.com/code/karnikakapoor/customer-segmentation-clustering/input
