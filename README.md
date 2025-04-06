@@ -42,4 +42,8 @@ pip freeze > requirements.txt
 
 ## Descibtion: https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis
 
+# 06-04-2025
+
+## https://drive.google.com/drive/folders/1bRPpKIMsqjdd0VsMtV58EwkzqhEG3TgU?usp=drive_link
+
 
