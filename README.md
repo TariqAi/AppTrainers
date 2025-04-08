@@ -87,5 +87,21 @@ Utilizes a pre-trained Logistic Regression model.
 
 Provides real-time predictions through Streamlit.
 
+🤞🤞🤞🤞🤞🤞🤞🤞🤞🤞🤞🤞🤞🤞
+Skilss:
+
+Python programming
+SQL
+Data Visualization & BI Tools ( Power BI )
+Scikit-learn
+Machine learning algorithms
+TensorFlow, PyTorch
+Deep learning frameworks
+Convolution Neural Networks (CNN)
+Recurrent Neural Networks (RNN)
+Natural language processing (NLP)
+Git version control
+
+
 
 
