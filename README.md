@@ -52,7 +52,7 @@ mohammed jermy kaggle project:
 
 
 🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴
-## Sentiment__Analysis
+## Sentiment Analysis
 Built an NLP pipeline to classify tweets as positive or negative using
 machine learning (Logistic Regression, Naive Bayes, SVM).
 
@@ -61,7 +61,7 @@ Preprocessed text and applied TF-IDF for feature extraction.
 Achieved strong performance metrics and visualized key insights
 with WordClouds.
 
-## Image Classification on CIFAR-10
+## CIFAR-10 (Image Classification)
 Built and trained a Convolutional Neural Network (CNN) to classify
 images into 10 object categories using the CIFAR-10 dataset.
 
@@ -78,7 +78,7 @@ modeling to forecast traffic volume.
 Utilized regression models to achieve accurate short-term traffic
 predictions.
 
-## Heart disease prediction
+## Heart Disease Prediction
 User-friendly interface for inputting patient health data.
 
 Predicts whether a person has heart disease based on medical attributes.
