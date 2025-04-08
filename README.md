@@ -46,4 +46,10 @@ pip freeze > requirements.txt
 
 ## https://drive.google.com/drive/folders/1bRPpKIMsqjdd0VsMtV58EwkzqhEG3TgU?usp=drive_link
 
+# 08-04-2025
+mohammed jermy kaggle project:
+## https://www.kaggle.com/code/mohammadaljermy/imdb-sentiment-analysis
+
+
+
 
