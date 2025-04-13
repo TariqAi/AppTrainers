@@ -61,7 +61,7 @@ Notes:
 🔴 https://drive.google.com/drive/folders/1twbWGSC7A6PTmwPnhDp25ab7Eiv-gjE8
 
 1) detect the object (Number Plate)
-2) Use Region of Intrest ( RIO )
+2) Use Region of Intrest ( ROI )
 3) extract the number.
 4) save the in txt file ( Time, Number_plate )
 
