@@ -62,10 +62,13 @@ Notes:
  [https://drive.google.com/drive/folders/1twbWGSC7A6PTmwPnhDp25ab7Eiv-gjE8](https://drive.google.com/file/d/1OsBehmOcSiwMv1kc9MAtkfuM9SzWNORw/view?usp=drive_link)
 
 1) Use YOLO v11
-2) Detect the object (Number Plate)
-3) Use Region of Intrest ( ROI )
-4) Extract the number using 
-5) save the in txt file ( Time, Number_plate )
+2) Use Region of Intrest ( ROI )
+3) Extract the number using (Tesseract OCR or PaddleOCR or Aspose.OCR)
+4) Save it the in txt file (Number_plate, Time)
+
+HINT or STEPS:
+First: Detect the license plate region using object detection.
+Second: Crop the plate region and apply OCR to extract text. 
 
 
 
