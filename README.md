@@ -58,7 +58,7 @@ Notes:
 2) tracking the persons
 
 
-# Car license plates
+# 🔴 Car license plates
  [https://drive.google.com/drive/folders/1twbWGSC7A6PTmwPnhDp25ab7Eiv-gjE8](https://drive.google.com/file/d/1OsBehmOcSiwMv1kc9MAtkfuM9SzWNORw/view?usp=drive_link)
 
 1) Use YOLO v11
