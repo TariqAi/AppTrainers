@@ -58,12 +58,14 @@ Notes:
 2) tracking the persons
 
 
-🔴 [https://drive.google.com/drive/folders/1twbWGSC7A6PTmwPnhDp25ab7Eiv-gjE8](https://drive.google.com/file/d/1OsBehmOcSiwMv1kc9MAtkfuM9SzWNORw/view?usp=drive_link)
+# Car license plates
+ [https://drive.google.com/drive/folders/1twbWGSC7A6PTmwPnhDp25ab7Eiv-gjE8](https://drive.google.com/file/d/1OsBehmOcSiwMv1kc9MAtkfuM9SzWNORw/view?usp=drive_link)
 
-1) detect the object (Number Plate)
-2) Use Region of Intrest ( ROI )
-3) extract the number.
-4) save the in txt file ( Time, Number_plate )
+1) Use YOLO v11
+2) Detect the object (Number Plate)
+3) Use Region of Intrest ( ROI )
+4) Extract the number using 
+5) save the in txt file ( Time, Number_plate )
 
 
 
