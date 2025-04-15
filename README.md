@@ -67,8 +67,8 @@ Notes:
 4) Save it the in txt file (Number_plate, Time)
 
 HINT or STEPS:
-First: Detect the license plate region using object detection.
-Second: Crop the plate region and apply OCR to extract text.
+- First: Detect the license plate region using object detection.
+- Second: Crop the plate region and apply OCR to extract text.
 
 
 
