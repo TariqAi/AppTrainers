@@ -105,7 +105,6 @@ def preprocess_image(img):
     closed = cv2.morphologyEx(thresh, cv2.MORPH_CLOSE, kernel)
     return closed
 
-# Load the image
 img = cv2.imread(img_path)
 
 if img is None:
