@@ -59,7 +59,7 @@ Notes:
 
 
 # 🔴 Car license plates
- [https://drive.google.com/drive/folders/1twbWGSC7A6PTmwPnhDp25ab7Eiv-gjE8](https://drive.google.com/file/d/1OsBehmOcSiwMv1kc9MAtkfuM9SzWNORw/view?usp=drive_link)
+## https://drive.google.com/file/d/1QaekEG4uRI5DyovlgAdrrSFg5028OaUO/view?usp=sharing
 
 1) Use YOLO v11
 2) Use Region of Intrest ( ROI ) --> https://polygonzone.roboflow.com/
