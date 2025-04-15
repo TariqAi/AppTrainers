@@ -76,28 +76,61 @@ HINT or STEPS:
 🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰
 
 import cv2
+import matplotlib.pyplot as plt
+from IPython.display import display, Image
+import numpy as np
 
-img_path = "detected_plates\plate_20250415_144839_821598.jpg"
+img_path = "detected_plates/plate_20250415_144839_821598.jpg"
 
 def preprocess_image(img):
     """Enhanced pipeline for OCR on license plates."""
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    gray = cv2.bilateralFilter(gray, 0, 0, 200)
-    gray = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[1]
-    return gray
+    
+    # Noise reduction (Median Blur or Gaussian Blur)
+    blurred = cv2.GaussianBlur(gray, (3, 3), 0)
+    
+    # Contrast enhancement (CLAHE)
+    clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8, 8))
+    enhanced = clahe.apply(blurred)
+    
+    # Adaptive Thresholding
+    thresh = cv2.adaptiveThreshold(
+        enhanced, 255, 
+        cv2.ADAPTIVE_THRESH_GAUSSIAN_C, 
+        cv2.THRESH_BINARY_INV, 11, 2
+    )
+    
+    # Morphological Closing to fill gaps
+    kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (3, 3))
+    closed = cv2.morphologyEx(thresh, cv2.MORPH_CLOSE, kernel)
+    return closed
 
-# Load the image first
+# Load the image
 img = cv2.imread(img_path)
 
-# Check if image is loaded
 if img is None:
     print("❌ Failed to load image. Check the path.")
 else:
+    # Process the image
     processed_img = preprocess_image(img)
-    cv2.imshow("Processed Plate", processed_img)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
-
+    
+    # Convert BGR to RGB for matplotlib (since OpenCV uses BGR)
+    img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+    
+    # Display original and processed images side by side
+    plt.figure(figsize=(12, 6))
+    
+    plt.subplot(1, 2, 1)
+    plt.imshow(img_rgb)
+    plt.title("Original Image")
+    plt.axis('off')
+    
+    plt.subplot(1, 2, 2)
+    plt.imshow(processed_img, cmap='gray')
+    plt.title("Processed Image (OCR-ready)")
+    plt.axis('off')
+    
+    plt.show()
 
 
 
