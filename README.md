@@ -73,4 +73,33 @@ HINT or STEPS:
 
 
 
+🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰
+
+import cv2
+
+img_path = "detected_plates\plate_20250415_144839_821598.jpg"
+
+def preprocess_image(img):
+    """Enhanced pipeline for OCR on license plates."""
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    gray = cv2.bilateralFilter(gray, 0, 0, 200)
+    gray = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[1]
+    return gray
+
+# Load the image first
+img = cv2.imread(img_path)
+
+# Check if image is loaded
+if img is None:
+    print("❌ Failed to load image. Check the path.")
+else:
+    processed_img = preprocess_image(img)
+    cv2.imshow("Processed Plate", processed_img)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
+
+
+
+
+
 
